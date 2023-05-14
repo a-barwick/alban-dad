@@ -20,7 +20,7 @@ const main = async ({ isTypeScript, rootDirectory }) => {
 	const ENV_PATH = path.join(rootDirectory, '.env')
 	const PKG_PATH = path.join(rootDirectory, 'package.json')
 
-	const appNameRegex = escapeRegExp('epic-stack-template')
+	const appNameRegex = escapeRegExp('alban-dad')
 
 	const DIR_NAME = path.basename(rootDirectory)
 	const SUFFIX = getRandomString(2)
