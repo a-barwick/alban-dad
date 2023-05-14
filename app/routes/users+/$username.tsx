@@ -115,7 +115,7 @@ export function ErrorBoundary() {
 export const meta: V2_MetaFunction<typeof loader> = ({ data, params }) => {
 	const displayName = data?.user.name ?? params.username
 	return [
-		{ title: `${displayName} | Epic Notes` },
+		{ title: `${displayName} | Alban, Dad` },
 		{
 			name: 'description',
 			content: `${displayName} on Epic Notes is not a host or renter yet.`,
